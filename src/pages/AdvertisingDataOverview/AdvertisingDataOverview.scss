@@ -1,0 +1,23 @@
+.AdvertisingDataOverview {
+  &__header {
+    margin: 0 0.5rem;
+  }
+
+  &__content {
+    display: flex;
+  }
+
+  &__block {
+    margin: 0.5rem;
+    padding: 0 1rem 1rem;
+    border: 1px solid lightgray;
+  }
+
+  &__left-block {
+    width: 30%;
+  }
+
+  &__right-block {
+    width: 70%;
+  }
+}
