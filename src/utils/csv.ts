@@ -9,7 +9,7 @@ export const parseCsv = <T = any>(csv: string): T[] => {
 
   if (errors.length > 0) {
     const readableErrors = errors.map((error) => error.message).join(', ');
-    throw Error(`Errors occurred while parsing advertising data: ${readableErrors}`);
+    throw Error(`Errors occurred while parsing csv: ${readableErrors}`);
   }
 
   return data;
